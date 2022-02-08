@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="wrap">
+        <div class="vBox">
+            <video autoplay loop type="video/mp4">
+                <!-- 
+                video옵션
+                autoplay 자동재생
+                loop 무한반복
+                controls 컨트롤패널 넣기
+
+                type="video/mp4"
+                현재 모든 브라우저에서 지원 가능한 동영상
+                파일 형식 : mp4 (H.264+ACC 형식으로 인코딩)
+                 -->
+                <source src="images/nike.mp4">
+            </video>
+        </div><!--vBox 비디오 영역-->
+
+
+        <header>
+            <h1><img src="images/logo2.png"></h1>
+            <ul class="gnb">
+                <li class="on"><a href="#"><span>
+                    <i class="fas fa-redo fa-spin" style="margin-right: 10px;"></i>
+                    About Nike</span></a>
+                    <ul class="sub">
+                        <li><a href="#"><span>English</span></a></li>
+                    </ul><!--sub-->
+                </li><!--첫번째 li-->
+
+                <li><a href="#"><span>Brand Info</span></a>
+                    <ul class="sub">
+                        <li><a href="#"><span>SUB</span></a></li>
+                        <li><a href="#"><span>SUB</span></a></li>
+                        <li><a href="#"><span>SUB</span></a></li>
+                        <li><a href="#"><span>SUB</span></a></li>
+                    </ul><!--sub-->
+                </li><!--두번째 li-->
+
+                <li><a href="#"><span>Community</span></a>
+                    <ul class="sub">
+                        <li><a href="#"><span>SUB</span></a></li>
+                        <li><a href="#"><span>SUB</span></a></li>
+                        <li><a href="#"><span>SUB</span></a></li>
+                    </ul><!--sub-->
+                </li><!--세번째 li-->
+
+                <li><a href="#"><span>Product Value</span></a>
+                    <ul class="sub">
+                        <li><a href="#"><span>SUB</span></a></li>
+                        <li><a href="#"><span>SUB</span></a></li>
+                    </ul><!--sub-->
+                </li><!--네번째 li-->
+
+                <li><a href="#"><span>Company History</span></a>
+                    <ul class="sub">
+                        <li><a href="#"><span>SUB</span></a></li>
+                    </ul>
+                </li><!--다섯번째 li-->
+            </ul><!--gnb-->
+        </header><!--header!!!!!!!!!!!!!!-->
+
+
+        <ul class="sns">
+            <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+            <li><a href="#"><i class="fab fa-google-plus"></i></a></li>
+            <li><a href="#"><i class="fab fa-android"></i></a></li>
+        </ul>
+
+
+        <!--strong: 인라인요소, span처럼 사용이 가능함
+            글자를 굵게만듬, 강조의 의미를 가지고 있음 
+        -->
+
+        <article>
+            <p><strong>50</strong>/24</p>
+            <h2>Best Qualified <span>AIR MAX</span></h2>
+        </article>
+        <!--
+            ARTICLE
+            header, footer, section와 같은 시맨틱 태그 
+            (aside, nav, figure, main...)
+            글자묶음, 기사묶음, 문단 묶음 .... 
+        -->
+
+
+        <section>
+            <div class="con">
+                
+                <div class="conWrap">
+                    <div class="item">
+                        <p>Event & Community</p>
+                        <a href="#"><img src="images/pic1.png"></a>
+                    </div><!--item1-->
+
+                    <div class="item">
+                        <p>News & Notice</p>
+                        <a href="#"><img src="images/pic2.png"></a>
+                    </div><!--item2-->
+
+                    <div class="item">
+                        <p>Product Review</p>
+                        <a href="#"><img src="images/pic3.png"></a>
+                    </div><!--item3-->
+                </div><!--conWrap-->
+
+            </div><!--con-->
+
+            <div class="arr">
+                <i class="fas fa-angle-double-left"></i>
+                <i class="fas fa-angle-double-left"></i>
+                <i class="fas fa-angle-double-left"></i>
+            </div><!--arr-->
+        </section>
+        
+
+
+    </div><!--wrap-->
+ 
+    
+<script src="https://kit.fontawesome.com/9c57707556.js" crossorigin="anonymous"></script>
+</body>
+</html>

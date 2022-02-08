@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.wrap{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.mainBn{
+    width: 100%;
+    height: 600px;
+}
+
+.myimg{
+    position: absolute;
+    top: 600px;
+    left: 20px;
+    width: 870px;
+    height: 385px;
+    margin-left: 525px;
+}
+
+.bg{
+    background-image: url(../images/GrayWall.jpg);
+    width: 100%;
+    height: 5000px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.clicks{
+    display: flex;
+}
+
+.click1{
+    margin-left: 180px;
+    width: 400px;
+    height: 30px;
+    background-color: darkgrey;
+}
+
+.click2{
+    margin-left: 180px;
+    background-color: darkgrey;
+    width: 400px;
+    height: 30px;
+}
+
+.vidfont{
+    width: 700px;
+    height: 150px;
+}
+
+.vids{
+    position: absolute;
+    top: 1100px;
+    left: 20px;
+    width: 1345px;
+    height: 1230px;
+    margin-left: 288px;
+}
+
+.vidfont{
+    margin-left: 25%;
+    margin-top: 40px;
+    margin-bottom: 120px;
+}
+
+.vWrap{
+    display: flex;
+}
+
+.vWrap .vid1{
+    position: absolute;
+    left: 140px;
+}
+
+.vWrap .vid2{
+    position: absolute;
+    left: 720px;
+}
+
+.vid1{
+    display: none;
+}
+
+.vid2{
+    display: none;
+}
+
+section{
+    position: absolute;
+    top: 2500px;
+    left: 10%;
+    width: 100%;
+    height: 1080px;
+    display: flex;
+}
+
+.gryfont{
+    margin-top: 50px;
+    width: 140px;
+    height: 980px;
+}
+
+.gryimg{
+    width: 1150px;
+    height: 1080px;
+    margin-left: 100px;
+}
+
+.gryimg article::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.gryimg article{
+    float: left;
+}
+.imagee{
+    width: 380px;
+    height: 360px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.gryimg article:nth-child(1) .imagee{
+    background-image: url(../images/cat.jpg);
+ 
+}
+
+.gryimg article:nth-child(2) .imagee{
+    background-image: url(../images/CoffeeLogo.jpg);
+
+}
+
+.gryimg article:nth-child(3) .imagee{
+    background-image: url(../images/CoffeeMenu.jpg);
+    
+}
+
+.gryimg article:nth-child(4) .imagee{
+    background-image: url(../images/guitaText.jpg);
+}
+
+.gryimg article:nth-child(5) .imagee{
+    background-image: url(../images/Bolling.jpg);
+}
+
+.gryimg article:nth-child(6) .imagee{
+    background-image: url(../images/photo1.jpg);
+}
+
+.gryimg article:nth-child(7) .imagee{
+    background-image: url(../images/photo2.jpg);
+}
+
+.gryimg article:nth-child(8) .imagee{
+    background-image: url(../images/sunset.jpg);
+}
+
+.gryimg article:nth-child(9) .imagee{
+    background-image: url(../images/girl.jpg);
+    background-position: left;
+}
+
+.InfoWrap{
+    position: absolute;
+    top: 3800px;
+    left: 70px;
+    width: 1900px;
+    height: 910px;
+}
+
+.InfoWrap .Info{
+    width: 1750px;
+    height: 900px;
+    background-image: url(../images/Info.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sWrap{
+    margin-top: -10px;
+    background-image: url(../images/GrayWall.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slide{
+    margin-top: 10px;
+}
+.slide .item .box{
+    margin: 0 20px;
+    width: 480px;
+    height: 700px;
+}
+
+.slick-dots{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 25px;
+}
+
+.slick-dots button{
+    width: 20px;
+    height: 20px;
+    border: 0;
+    background-color: rgb(65, 59, 59);
+    border-radius: 50%;
+}
+
+.slick-dots li{
+    margin: 0 10px;
+}
+
+.slick-dots li.slick-active button{
+    background-color: transparent;
+    border:1px solid rgb(255, 254, 254);
+}
+
+footer{  
+    width: 100%; 
+}
+
+.Thank{
+    position: absolute;
+    bottom: 900px;
+    left: 30% ;
+}
+
+
+
